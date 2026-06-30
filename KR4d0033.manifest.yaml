@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR4d0033/v1
+canonical_location: https://kanripo.org/bkk/KR4d0033/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 雪竇四集
+  date: '2015-09-12 00:26:46.874471'
+  source:
+    repository: kanripo
+    path: KR4d0033
+  base_edition: SBCK
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: SBCK
+  label: 【四部叢刊】
+assets:
+  parts:
+  - {seq: 0, filename: KR4d0033_000.yaml, hash: 'sha256:074bcf7148ec5c0530089dd823d7e5d6ca6268aefeab48339396daddb4a090b7'}
+  - {seq: 1, filename: KR4d0033_001.yaml, hash: 'sha256:1079f0d61bd60918f1818d4e753bbce9ea995cbe52fc8bdd41399c38e571159f'}
+  - {seq: 2, filename: KR4d0033_002.yaml, hash: 'sha256:db0b54b5fafcbafbe2814c63bc0f9b6dde2736b6216ecbcf1cfdfad0a409df60'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR4d0033_000.markers.yaml, hash: 'sha256:4e15fc446848531d4b0c2ffefc7a027adbd804d68fb4c3d5b9c7c5052e0d2542'}
+  - {seq: 1, role: markers, filename: assets/KR4d0033_001.markers.yaml, hash: 'sha256:d2569c6c05f3d69c165b980f9d20e2893ad0eaf6aae12e0c77143c346a18962a'}
+  - {seq: 2, role: markers, filename: assets/KR4d0033_002.markers.yaml, hash: 'sha256:b2c5062cb6b768edb4c816ed37d6ec68e2c5f6f7f1a6e52674919b94000b094d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR4d0033_SBCK_000-1a
+    span:
+    - body
+    - 0
+    - 102
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR4d0033_SBCK_001-1a
+    span:
+    - body
+    - 0
+    - 26633
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4d0033_SBCK_002-1a
+    span:
+    - body
+    - 0
+    - 15136
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:b119b661daebd210971b21e969e3b15e1af5743ffba0ff5df0b3b24b5c61b0bf
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
